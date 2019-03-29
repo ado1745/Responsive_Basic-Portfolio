@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
+html, body {
+    margin: 0%;
+    height: 100%;
+    padding: 0;
+    background: url(../images/main_brg_img/concrete-texture.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+.page_content {
+    min-height: 100%;
+
+}
+
+
+
+
+.main_contrainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Baloo Chettan', cursive;
+    
+    
+}
+
+nav {
+    
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 30px 0 30px 0;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+
+
+
+
+/* ===============================    FOOTER     =================================== */
+
+.footer {
+    height: 40px;
+    margin-top: -40px;
+}
+
+
+footer {
+    
+    
+    text-align: center;
+    font-size: 15px;
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+/* ===============================    FOOTER     =================================== */
