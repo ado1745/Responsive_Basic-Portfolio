@@ -99,6 +99,8 @@ nav {
     h2 {
         margin: 20px 0 20px 30px;
         color: #4aaaa5;
+        border-bottom: 2px solid #4aaaa5;
+        width: 960px;
     }
 
     hr {
@@ -236,3 +238,28 @@ footer {
     color: white;
 }
 /* ===============================    FOOTER     =================================== */
+
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 640px;
+    }
+
+    .header, .inside_content {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    h2 {
+        width: 640px;
+    }
+
+    .grid img {
+        width: 230px;
+    }
+
+    .grid p {
+        width: 230px;
+        top: 125px;
+    }
+}
