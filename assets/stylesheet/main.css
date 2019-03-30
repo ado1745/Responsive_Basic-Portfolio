@@ -1,161 +1,165 @@
 
 /* === SITE STRUCRE ===*/
-html{ position: relative;
-min-height: 100%;
+    html{ position: relative;
+        min-height: 100%;
     }
+
     body {
         margin: 0 0 40px;
         background: url(../images/main_brg_img/concrete-texture.png);
     }
 
-
     * {
-    box-sizing: border-box;
+        box-sizing: border-box;
     }
-
-    
-
 
     a {
-    text-decoration: none;
+        text-decoration: none;
     }
     h1, h2, h3{
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 700;
-    color: #4aaaa5;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-weight: 700;
+        color: #4aaaa5;
     }
     
     h2,
     h3 {
-    font-size: 22px;
+        font-size: 22px;
     }
     
     .headerContainer {
-    background: white;
-    border-bottom: 2px solid #4aaaa5;
+        background: white;
+        border-bottom: 2px solid #4aaaa5;
     }
+
     .header {
-    max-width: 960px;
-    margin: auto;
-    height: 55px;
+        max-width: 960px;
+        margin: auto;
+        height: 55px;
     }
+
     .logo {
-    background: #4aaaa5;
-    color: white;
-    display: inline;
-    padding: 10px;
+        background: #4aaaa5;
+        color: white;
+        display: inline;
+        padding: 10px;
     }
+
     nav {
-    float: right;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 20px 0 0 0;
-    word-spacing: 10px;
-    font-weight: bold;
-    font-size: 20px;
-    max-width: 960px;
+        float: right;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        margin: 20px 0 0 0;
+        word-spacing: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        max-width: 960px;
     }
+
     nav > a {
     color: gray;
     }
+
     .siteContainer {
-    max-width: 960px;
-    margin: auto;
-    background: white;
-    margin-top: 25px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    border: solid #dddddd;
+        max-width: 960px;
+        margin: auto;
+        background: white;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        border: solid #dddddd;
     }
     h2 {
-    border-bottom: 2px solid #4aaaa5;
-    margin: 20px 30px 15px 30px;
-    padding-bottom: 10px;
+        border-bottom: 2px solid #4aaaa5;
+        margin: 20px 30px 15px 30px;
+        padding-bottom: 10px;
     }
     /* === SITE STRUCRE ===*/
     
     /* === ABOUT ===*/
     .aboutMe {
-    margin: 20px 30px 30px 30px;
+     margin: 20px 30px 30px 30px;
     }
+
     #aboutPic {
-    width: 240px;
-    float: left;
-    margin: 0 20px 10px 0;
+        width: 240px;
+        float: left;
+        margin: 0 20px 10px 0;
     } 
     /* === ABOUT ===*/
     
     
     /* === CONTACT ===*/
     form {
-    margin: 20px 0 20px 30px;
+        margin: 20px 0 20px 30px;
     }
+
     input[type=text], input[type=email] {
-    width: 900px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+        width: 900px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
     }
+
     #message {
-    width: 900px;
-    height: 250px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-    box-sizing: border-box;
-    
+        width: 900px;
+        height: 250px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: none;
+        box-sizing: border-box;
     }
     
     #button {
-    background: #4aaaa5;
-    border: 1px #4267b2;
-    color: white;
-    width: 90px;
-    height: 25px;
+        background: #4aaaa5;
+        border: 1px #4267b2;
+        color: white;
+        width: 90px;
+        height: 25px;
     }
     #button:hover{
-    background: #257773;
-    border-top: 1px solid #4aaaa5;
+        background: #257773;
+        border-top: 1px solid #4aaaa5;
     }
     /* === CONTACT ===*/
     
     
     /* === PORTFOLIO ===*/
     .portfolio_pics {
-    display: grid;
-    grid-template-columns: repeat(2, 250px);
-    grid-gap: 1em;
-    grid-auto-rows: minmax(250px, auto);
-    padding: 2em;
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        grid-gap: 1em;
+        grid-auto-rows: minmax(250px, auto);
+        padding: 2em;
     }
     .port_pics {
-    border: 1px #4aaaa5 solid;
-    width: 250px;
+        border: 1px #4aaaa5 solid;
+        width: 250px;
     }
     .grid {
-    position: relative;
+        position: relative;
     }
     .grid img {
-    width: 250px;
+        width: 250px;
     }
     .grid p {
-    position: absolute;
-    top: 150px;
-    text-align: center;
-    padding: 20px;
-    background: #4aaaa5;
-    width: 250px;
-    color: white;
-    opacity: 0.9;
+        position: absolute;
+        top: 150px;
+        text-align: center;
+        padding: 20px;
+        background: #4aaaa5;
+        width: 250px;
+        color: white;
+        opacity: 0.9;
     }
     .grid p:hover {
-    background: #257773;
-    border-top: 1px solid #4aaaa5;
+        background: #257773;
+        border-top: 1px solid #4aaaa5;
     } 
     /* === PORTFOLIO ===*/
     
@@ -164,16 +168,16 @@ min-height: 100%;
     
 
     footer {
-    position: absolute;
-    height: 40px;
-    bottom: 0%;
-    left: 0%;
-    width: 100%;
-    text-align: center;
-    font-size: 15px;
-    border-top: 8px solid #4aaaa5;
-    background: #666666;
-    color: white;
+        position: absolute;
+        height: 40px;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        border-top: 8px solid #4aaaa5;
+        background: #666666;
+        color: white;
     }
     /* === FOOTER ===*/
     /* ------------------------------------------------------------------------------------ */
@@ -183,14 +187,16 @@ min-height: 100%;
     =================================== */
     @media (min-width: 768.1px) and (max-width: 980PX) {
         body {
-        max-width: 980px;
+            max-width: 980px;
         }
+
         .header {
-        width: 920px;
+            width: 920px;
         }
+
         .siteContainer {
-        width: 630px;
-        margin-left: 30px;
+            width: 630px;
+            margin-left: 30px;
         }
         /* === SITE STRUCRE ===*/
         
@@ -200,10 +206,11 @@ min-height: 100%;
         
         /* === CONTACT ===*/
         input[type=text], input[type=email] {
-            width: 565px;
+                width: 565px;
             }
+
             #message {
-            width: 565px;
+                width: 565px;
             }
         /* === CONTACT ===*/
         
@@ -220,46 +227,46 @@ min-height: 100%;
     =================================== */
     @media (min-width: 650.1px) and (max-width: 768px) {
         body {
-        max-width: 768px;
+            max-width: 768px;
         }
         .header {
-        width: 730px;
+            width: 730px;
         }
         .siteContainer {
-        width: 730px;
+            width: 730px;
         }
         /* === SITE STRUCRE ===*/
         
         /* === ABOUT ===*/
         #aboutPic {
-        width: 390px;
+            width: 390px;
         }
         /* === ABOUT ===*/
         
         
         /* === CONTACT ===*/
         input[type=text], input[type=email] {
-        width: 670px;
+            width: 670px;
         }
         #message {
-        width: 670px;
+            width: 670px;
         }
         /* === CONTACT ===*/
         
         
         /* === PORTFOLIO ===*/
         .portfolio_pics {
-        grid-gap: 4em;
-        grid-row-gap: 1em;
-        padding-left: 55px;
+            grid-gap: 4em;
+            grid-row-gap: 1em;
+            padding-left: 55px;
         }
         
         .grid img {
-        width: 300px;
+            width: 300px;
         }
         .grid p {
-        top: 175px;
-        width: 300px;
+            top: 175px;
+            width: 300px;
         }
         }
         /* === PORTFOLIO ===*/
@@ -272,29 +279,30 @@ min-height: 100%;
     /* === SITE STRUCRE ===*/
     @media (min-width: 1px) and (max-width: 640px) {
     body {
-    width: 640px;
+        width: 640px;
     }
     .header {
-    height: 90px;
+        height: 90px;
+        position: static;
     }
     .logo {
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
     }
     nav {
-    position: absolute;
-    margin: auto;
-    left: 200px;
-    margin-top: 5px;
+        position: absolute;
+        margin: auto;
+        left: 200px;
+        margin-top: 5px;
     }
     .siteContainer {
-    width: 600px;
+        width: 600px;
     }
     h2 {
-    margin-right: 15px;
-    text-align: center;
+        text-align: center;
+        margin-right: 15px;
     }
     /* === SITE STRUCRE ===*/
     
@@ -303,31 +311,31 @@ min-height: 100%;
     
     /* === ABOUT ===*/
     #aboutPic {
-    width: 530px;
-    margin-left: 8px;
+        width: 530px;
+        margin-left: 8px;
     }
     /* === ABOUT ===*/
     
     /* === CONTACT ===*/
     input[type=text], input[type=email] {
-    width: 550px;
+        width: 550px;
     }
     #message {
-    width: 550px;
+        width: 550px;
     }
     /* === CONTACT ===*/
     /* === PORTFOLIO ===*/
     .portfolio_pics {
-    display: block;
+        display: block;
     }
     .grid img {
-    width: 400px;
-    margin: 0 0 10px 70px;
+        width: 400px;
+        margin: 0 0 10px 70px;
     }
     .grid p {
-    top: 250px;
-    left: 70px;
-    width: 400px;
+        top: 250px;
+        left: 70px;
+        width: 400px;
     } 
     /* === PORTFOLIO ===*/
     }
