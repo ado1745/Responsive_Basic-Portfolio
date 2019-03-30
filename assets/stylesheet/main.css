@@ -1,16 +1,21 @@
 
 /* === SITE STRUCRE ===*/
-html, body {
-    padding: 0%;
-    margin: 0px;
-    height: 100%; 
+html{ position: relative;
+min-height: 100%;
     }
     body {
-    background: url(../images/main_brg_img/concrete-texture.png)
+        margin: 0 0 40px;
+        background: url(../images/main_brg_img/concrete-texture.png);
     }
+
+
     * {
     box-sizing: border-box;
     }
+
+    
+
+
     a {
     text-decoration: none;
     }
@@ -156,12 +161,14 @@ html, body {
     
     
     /* === FOOTER ===*/
+    
+
     footer {
-    position: fixed;
-    right: 0%;
+    position: absolute;
+    height: 40px;
     bottom: 0%;
     left: 0%;
-    height: 40px;
+    width: 100%;
     text-align: center;
     font-size: 15px;
     border-top: 8px solid #4aaaa5;
